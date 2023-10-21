@@ -4,19 +4,19 @@ public class MovieTitleGenerator {
     // Define an array containing all the movie titles
 
     private static final String[] actionMovieTitles = {
-            "John Wick","John Wick 2"
+            "John Wick","John Wick 2", "John Wick 3", "The Meg"
     };
     private static final String[] horrorMovieTitles = {
             "Hereditary","It",
     };
     private static final String[] romanceMovieTitles = {
-            "Titanic","John Wick 2"
+            "Titanic","Just Go With It", "No Hard Feelings", "Puppy Love"
     };
     private static final String[] sciFiMovieTitles = {
-         "Interstellar", "Arrival"
+         "Interstellar", "Arrival", "Life"
     };
     private static final String[] docuDramaMovieTitles = {
-            "Wolf of Wall Street","Just Go With It"
+            "Wolf of Wall Street","War Dogs"
     };
     private static final String[] crimeMovieTitles = {
             "No Hard Feelings","Just Go With It"
@@ -28,14 +28,19 @@ public class MovieTitleGenerator {
             "War Dogs","American Sniper"
     };
     private static final String[] fantasyMovieTitles = {
-            "No Hard Feelings","Just Go With It"
+            "Harry Potter and the Sorcerer's Stone","Harry Potter and the Chamber of Secrets",
+            "Harry Potter and the Prisoner of Azkaban", "Harry Potter and the Goblet of Fire",
+            "Harry Potter and the Order of Phoenix", "Harry Potter and the Half-Blood Prince",
+            "Harry Potter and the Deathly Hallows", "The Meg"
     };
     private static final String[] funnyMovieTitles = {
             "The 40-Year-Old Virgin","Friday", "Rush Hour", "Rush Hour 2", "Rush Hour 3",
         "Pineapple Express","Superbad", "Ride Along", "Ride Along 2", "Get Hard", "Grown Ups",
         "This Is the End", "Grown Ups 2", "21 Jump Street", "22 Jump Street", "Hall Pass",
         "The Hangover", "Napoleon Dynamite", "Why Him?", "Neighbors", "Let’s Be Cops",
-        "Daddy’s Home", "Scary Movie", "Big Time Adolescence", "Kick-Ass", "Paul Blart: Mall Cop"
+        "Daddy’s Home", "Scary Movie", "Big Time Adolescence", "Kick-Ass", "Paul Blart: Mall Cop",
+        "Observe and Report", "Harold & Kumar Go to White Castle",
+        "Harold & Kumar Escape from Guantanamo Bay",
     };
 
     public static String getRandomFunnyMovieTitle() {
